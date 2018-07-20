@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Caseuniqlo</title>
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-yona.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+</head>
+<body>
+	<div class="logoPrang"> <a href="index.html"> prangnoma </a> </div>
+	<div class="menu-section">
+  <div class="menu-toggle">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+  <nav>
+		<ul role="navigation" class="hidden menu menu--yona">
+			
+				<a class="menu__item" href="index.html">
+						<span class="menu__item-name">Portfolio</span>
+						<span class="menu__item-label">ดูตัวอย่างงาน</span>
+					</a>
+					<a class="menu__item" href="Awards.html">
+						<span class="menu__item-name">Awards</span>
+						<span class="menu__item-label">ผลงานที่ได้รับรางวัล</span>
+					</a>
+					<a class="menu__item" href="About.html">
+						<span class="menu__item-name">About& Other works</span>
+						<span class="menu__item-label">เกี่ยวกับเรา และงานอื่นๆ</span>
+					</a>
+					<a class="menu__item" href="#">
+						<span class="menu__item-name">Download</span>
+						<span class="menu__item-label">แบ่งปันไฟล์เพื่อใช้ในงานออกแบบ</span>
+					</a>
+					<a class="menu__item" href="contact.php">
+						<span class="menu__item-name">Contact</span>
+						<span class="menu__item-label">ติดต่อเราได้ที่</span>
+					</a>
+					<a class="menu__item" href="#">
+						<span class="menu__item-name">English</span>
+						<span class="menu__item-label">Change language </span>
+					</a>
+			
+		</ul>
+	</nav>
+</div>
+	
+	<div id="portBox">  <img src="img/uni.jpg"></div>
+	<video autoplay muted loop id="myVideo">
+  	<source src="UniPage.mp4" type="video/mp4">
+ 	 Your browser does not support HTML5 video.
+	</video>
+	<div id="portBox2">  <img src="img/uni2.jpg"></div>
+	<div class="buttonNextPro5"> <a href="MedAlert.html">  Next project </a> 
+
+	<script src="js/charming.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/demo-yona.js"></script>
+	<script src='js/jquery.min.js'></script>
+	
+
+
+	
+	<script >$(".menu-toggle").on('click', function() {
+  $(this).toggleClass("on");
+  $('.menu-section').toggleClass("on");
+  $("nav ul").toggleClass('hidden');
+});
+//# sourceURL=pen.js
+</script>
+</body>
+</html>

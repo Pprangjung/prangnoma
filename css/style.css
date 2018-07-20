@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Chonburi|Mitr');
+
+body{
+	width: 100%;
+	height: auto;
+	margin:0;
+	padding:0;
+	letter-spacing: 1px;
+	font-family: 'Mitr', sans-serif;
+	overflow-x: hidden;
+
+}
+
+
+#myVideo{
+	position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: auto;
+    margin-top: -2%;
+    z-index: 1;
+}
+
+
+.menu-toggle {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+  z-index: 4000;
+}
+.menu-toggle.on .one {
+  -moz-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+  background-color: white;
+}
+.menu-toggle.on .two {
+  opacity: 0;
+}
+.menu-toggle.on .three {
+  -moz-transform: rotate(-45deg) translate(8px, -10px);
+  -ms-transform: rotate(-45deg) translate(8px, -10px);
+  -webkit-transform: rotate(-45deg) translate(8px, -10px);
+  transform: rotate(-45deg) translate(8px, -10px);
+  background-color: white;
+}
+
+.one,
+.two,
+.three {
+  width: 100%;
+  height: 5px;
+  background: black;
+  margin: 6px auto;
+  backface-visibility: hidden;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.menu-section.on {
+  z-index: 3000;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: #000;
+  position: absolute;
+}
+
+nav ul {
+  
+ overflow-x: hidden;
+  margin: 6em auto;
+  
+}
+nav ul.hidden {
+  display: none;
+}
+
+
+
+
+#portBox{
+	width: 100%;
+	height: auto;
+	float: left;
+	
+	z-index: -3;
+
+
+}
+#portBox img{
+	max-width: 100%;
+	margin:0;
+	padding:0;
+}
+
+
+#portBox2{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: -2%;
+	z-index: 2;
+
+
+}
+#portBox2 img{
+	max-width: 100%;
+	margin:0;
+	padding:0;
+}
+
+
+#portBoxAW{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #001292;
+	z-index: -3;
+	margin-top:-4px;
+	padding: 0;
+
+
+
+}
+#portBoxAW img{
+	max-width: 100%;
+	margin:0;
+	padding:0;
+}
+
+#portBoxHalf{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: -1%;
+	z-index: -1;
+
+
+}
+#portBoxHalf img{
+	max-width: 100%;
+	margin:0;
+	padding:0;
+}
+
+
+
+.logoPrang {
+	padding: 2rem 3rem 0 2rem;
+	display: flex;
+	font-family: 'Mitr', sans-serif;
+	color: #000;
+	font-size: 22px;
+	z-index: 1;
+	position: absolute;
+	letter-spacing: 1px;
+
+}
+
+
+
+.buttonNextPro{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	font-family: 'Mitr', sans-serif;
+	color: white;
+	background-color: black;
+	
+	padding:35px 6px 5px 6px;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+.buttonNextPro:hover{
+	background-color: #FF6E63;
+	color: black;
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+        transform: scale(2.3);
+        transition:all 0.8s ease;
+        cursor: pointer;
+    }
+
+
+.buttonNextPro2{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	font-family: 'Mitr', sans-serif;
+	color: white;
+	background-color: black;
+	
+	padding:35px 6px 5px 6px;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+.buttonNextPro2:hover{
+	background-color:  #FDA158;
+	color: black;
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+        transform: scale(2.3);
+        transition:all 0.8s ease;
+        cursor: pointer;
+    }
+
+    .buttonNextPro3{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	font-family: 'Mitr', sans-serif;
+	color: white;
+	background-color: black;
+	
+	padding:35px 6px 5px 6px;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+.buttonNextPro3:hover{
+	background-color:  #FF769A;
+	color: black;
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+        transform: scale(2.3);
+        transition:all 0.8s ease;
+        cursor: pointer;
+    }
+
+        .buttonNextPro4{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	font-family: 'Mitr', sans-serif;
+	color: white;
+	background-color: black;
+	
+	padding:35px 6px 5px 6px;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+.buttonNextPro4:hover{
+	background-color:  #FDB1C5;
+	color: black;
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+        transform: scale(2.3);
+        transition:all 0.8s ease;
+        cursor: pointer;
+    }
+
+
+
+        .buttonNextPro5{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	font-family: 'Mitr', sans-serif;
+	color: white;
+	background-color: black;
+	
+	padding:35px 6px 5px 6px;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+.buttonNextPro5:hover{
+	background-color:  #FFDD88;
+	color: black;
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+        transform: scale(2.3);
+        transition:all 0.8s ease;
+        cursor: pointer;
+    }
+
+
+        .buttonNextPro6{
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	font-family: 'Mitr', sans-serif;
+	color: white;
+	background-color: black;
+	
+	padding:35px 6px 5px 6px;
+	float: left;
+	margin-top: -5px;
+	margin-bottom: 0;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+
+
+.buttonNextPro6:hover{
+	background-color:  #FF08FF;
+	color: black;
+-webkit-transform: scale(2.3);
+        -ms-transform: scale(2.3);
+        transform: scale(2.3);
+        transition:all 0.8s ease;
+        cursor: pointer;
+    }
